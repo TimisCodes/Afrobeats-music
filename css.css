@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+}
+header{
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    font-family: cursive;
+    animation: head ease 3s forwards;
+}
+@keyframes head{
+    0%{
+        transform: translateX(150px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+.set{
+    margin: 150px 0px 0px 0px;
+}
+.beat{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    border: 10px solid white;
+    background-color: white;
+    color: white;
+    font-size: 4rem;
+    font-weight: 600;
+    display: inline-block;
+    margin-left: 20px;
+    margin: 10;
+    animation: davido ease 3s forwards;
+}
+.d{
+    background-image: url(./davido.jpg);
+    background-repeat: no-repeat;
+    
+}
+@keyframes davido{
+    0%{
+        transform: translateX(50px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+.w{
+    background-image: url(./wizkid.jpeg);
+    background-repeat: no-repeat;
+}
+.b{
+    background-image: url(./burnaboy.jpg);
+    background-repeat: no-repeat;
+}
+.o{
+    background-image: url(./olamide.jpg);
+    background-repeat: no-repeat;
+}
+.r{
+    background-image: url(./rema.jpg);
+    background-repeat: no-repeat;
+}
+.a{
+    background-image: url(./asake.jpg);
+    background-repeat: no-repeat;
+}
+
+footer{
+    text-align: center;
+    padding-top: 200px;
+    animation: davido ease 3s forwards;
+}
+
+@media(max-width: 430px){
+    div{
+        position: relative;
+        padding-left: 80px;
+    }
+}
